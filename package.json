@@ -1,0 +1,26 @@
+{
+  "name": "react-docgen-readme",
+  "version": "0.0.1",
+  "description": "CLI tool that extracts information from React Components using react-docgen, transforms that information into Markdown and adds it to your README file.",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vieron/react-docgen-readme.git"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "react-docgen-readme": "bin/cli.js",
+    "rdr": "bin/cli.js"
+  },
+  "author": "vieron",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.compact": "^3.0.0",
+    "lodash.foreach": "^3.0.3",
+    "lodash.merge": "^3.3.2",
+    "lodash.template": "^3.6.2",
+    "markdown-utils": "^0.7.1",
+    "node-dir": "^0.1.11",
+    "react-docgen": "^2.4.0",
+    "yargs": "^3.31.0"
+  }
+}
